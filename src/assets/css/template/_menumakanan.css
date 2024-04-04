@@ -1,0 +1,13 @@
+#menu-makanan {
+  margin-top: 0px;
+}
+
+.card-menu-makanan {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 993px) {
+  #menu-makanan {
+    margin-top: 80px;
+  }
+}

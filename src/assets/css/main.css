@@ -1,0 +1,10 @@
+@import "template/_top.css";
+@import "template/_navbar.css";
+@import "template/_switch.css";
+@import "template/_top_main.css";
+@import "template/_menumakanan.css";
+@import "template/_promo.css";
+@import "template/_sticky.css";
+@import "template/_theme.css";
+
+@import "_global.css";

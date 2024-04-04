@@ -1,0 +1,25 @@
+.div-navbar {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar.fixed-top {
+  margin-top: 35px;
+}
+
+.navbar {
+  border-bottom: 2px solid #333232;
+}
+
+@media screen and (max-width: 992px) {
+  .div-navbar {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .navbar.fixed-top {
+    margin-top: 0;
+  }
+}

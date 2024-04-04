@@ -1,0 +1,56 @@
+#top-header {
+  display: flex;
+  height: 35px;
+  background-color: #333232;
+  color: white;
+  justify-content: space-between;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#top-header > .padding {
+  padding: 6px 10px;
+}
+
+#top-header > .telp {
+  width: 180px;
+  margin-left: 50px;
+}
+
+#top-header > .email {
+  width: 240px;
+}
+
+#top-header > .space {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#top-header > .sosmed {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  width: 300px;
+}
+
+.sosmed i {
+  width: 35px;
+  padding: 12px 10px;
+}
+
+.line-vertical {
+  width: 1px;
+  background-color: white;
+  height: 12px;
+  margin-top: 12.5px;
+}
+
+#top-header.fixed-top {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 992px) {
+  #top-header {
+    display: none;
+  }
+}

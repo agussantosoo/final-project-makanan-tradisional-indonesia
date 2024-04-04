@@ -1,0 +1,10 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#section1 {
+  margin-top: 100px;
+}

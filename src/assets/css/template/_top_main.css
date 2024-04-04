@@ -1,0 +1,35 @@
+#top-main {
+  width: 100%;
+  display: flex;
+}
+
+.main-left {
+  width: 55%;
+  background-image: linear-gradient(
+    to bottom,
+    #e2dde1,
+    #e2e0e3,
+    #e8e6e9,
+    #dcd5dc 60%,
+    #e1dae2
+  );
+}
+
+.text-left-centered {
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -55%);
+  opacity: 0.8;
+}
+
+.main-right {
+  width: 45%;
+}
+
+@media screen and (max-width: 992px) {
+  #top-main {
+    display: none;
+  }
+}
